@@ -16,6 +16,7 @@ import { MinusCircleOutlined, PlusOutlined } from "@ant-design/icons";
 
 //Change this to your backend endpoint  when in production
 const host = "http://127.0.0.1:8000";
+// 
 
 function getBase64(file) {
   return new Promise((resolve, reject) => {
