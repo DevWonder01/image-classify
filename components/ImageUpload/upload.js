@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import axios from "axios";
 //Change this to your backend endpoint  when in production
-const host = "http://127.0.0.1:8000";
+const host = "https://django-tensorflow-backend.herokuapp.com";
 // 
 
 function getBase64(file) {
