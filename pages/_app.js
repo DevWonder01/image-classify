@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-     <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
+     {/* <style dangerouslySetInnerHTML={{ __html: stylesheet }} /> */}
       <Component {...pageProps} />
     </>
   );

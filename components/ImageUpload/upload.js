@@ -2,18 +2,6 @@ import React, { Component } from "react";
 import Head from 'next/head'
 
 import axios from "axios";
-import {
-  Input,
-  Form,
-  Select,
-  DatePicker,
-  Modal,
-  Upload,
-  message,
-  notification,
-} from "antd";
-import { MinusCircleOutlined, PlusOutlined } from "@ant-design/icons";
-
 //Change this to your backend endpoint  when in production
 const host = "http://127.0.0.1:8000";
 // 
