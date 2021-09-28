@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import Upload from './upload'
+import MyUpload from '../components/ImageUpload/upload'
+
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
       </Head>
 
 
-    <Upload/>
+    <MyUpload/>
     </>
   )
 }

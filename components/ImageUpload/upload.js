@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Head from 'next/head'
+import rsuiteHandle  from "./rSuiteUploader";
 
 import axios from "axios";
 //Change this to your backend endpoint  when in production
@@ -132,6 +133,8 @@ export default class MyUpload extends Component {
       });
   };
 
+  
+
   render() {
     const { Preview, Result } = this.state;
 
@@ -193,6 +196,8 @@ export default class MyUpload extends Component {
               </form>
             </div>
           </div>
+
+          {/* <rsuiteHandle/> */}
 
           {
               this.state.loaded?(
